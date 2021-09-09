@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Contacts-R-Us</title>
+    <!--Change title when name comes-->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/code.js"></script>
+</head>
+
+<body>
+    <header>
+        
+        <h2><a id="link" href="index.html">Contacts-R-Us</a></h2>
+        
+    </header>
+    
+    <div class="LoginDiv">
+        <div id="kern">PLEASE LOG IN TO CONTACTS-R-US</div>
+        <p class="small"></p>
+        <input type="text" id="user" placeholder="Username" required/><br />
+        <input type="password" id="password" placeholder="Password" required/><br />
+        <button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Login </button>
+        <!--<P>New to the website?</P>-->
+        <p class="small"></p>
+        <span id="inner-title">NEW TO THE WEBSITE?</span><br />
+        <form action="register.html">
+            <button type="submit" value="regButton">Register
+        </form>
+        <span id="loginResult"></span>
+    </div>
+</body>
+
+</html>
