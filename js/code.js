@@ -45,6 +45,14 @@ function doLogin() {
 	}
 }
 
+function doSignIn() {
+	window.location.href = "login.html";
+}
+
+function doRegister() {
+	window.location.href = "register.html";
+}
+
 function welcoming(){
 	var data = document.cookie;
 	var splits = data.split(",");
